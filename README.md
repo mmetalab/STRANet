@@ -98,24 +98,8 @@ Example training and test datasets are provided in the `Data` folder, while samp
 
 ---
 
-## Citation
-
-If you use STRANet or STRANet-Lite in your research, please cite:
-
-> Q. Chen, Z. Wang, X. Lin, Y. Shi, B. Xu, J. Chai, T. Zhang, C. Wang.  
-> **STRANet: Siamese Temporal Radiotherapy Assessment Network for Predicting Radiotherapy Outcomes.** (2025)
-
----
-
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## Contact
-
-For questions or collaborations, please contact:  
-**Cheng Wang, PhD**  
-Email: cheng.wang [at] example.com  
-Institution: Shandong University / Mount Sinai  
