@@ -1,3 +1,0 @@
-Patient_ID,Label,Binary_Label,Pre_path,Pre_pseudo_path,Post_path,Post_pseudo_path
-18,stable,0,.../Image/Stable/018_stable_pre.nii.gz,.../Image/Stable/pseudo_018_stable_pre.nii.gz,.../Image/Stable/018_stable_post.nii.gz,.../Image/Stable/pseudo_018_stable_post.nii.gz
-1,Progress,1,.../Image/Progress/001_trans_pre.nii.gz,бн/Image/Progress/pseudo_001_trans_pre.nii.gz,.../Image/Progress/001_trans_post.nii.gz,.../Image/Progress/pseudo_001_trans_post.nii.gz
