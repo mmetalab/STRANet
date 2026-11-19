@@ -1,4 +1,4 @@
-# STRANet: Siamese Temporal Radiotherapy Assessment Network (v2.0 — NSCLC-545)
+# STRANet: Siamese Temporal Radiotherapy Assessment Network
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.12+%20(CUDA%2012.0)-orange.svg)](https://www.tensorflow.org/)
@@ -104,10 +104,10 @@ pip install -r requirements.txt
 
 ### Quick Reproducibility Verification Using Zenodo Data
 
-Download and extract the Zenodo archive to `./Zenodo_NSCLC545_Data_v2`, then run:
+Download and extract the Zenodo archive to `./STRANet_Data`, then run:
 
 ```bash
-python examples/demo_reproduce_from_zenodo.py --zenodo-dir ./Zenodo_NSCLC545_Data_v2
+python examples/demo_reproduce_from_zenodo.py --zenodo-dir ./STRANet_Data
 ```
 
 This script verifies the `N = 545` baseline demographics (`Table 1`), recomputes the 5-fold OOF and held-out test AUROC/AUPRC values for `STRANet`, `STRANet-Lite`, `Longitudinal_Lung`, and `Clinical-only`, and reproduces the paired DeLong tests (`STRANet` vs. `Clinical-only`, `Source-only`, `Stage-only`, and `Longitudinal_Lung`).
